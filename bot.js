@@ -7,8 +7,6 @@ const path = require('path');
 
 const client = new Commando.Client({
 	commandPrefix: '?',
-    owner: auth.owner,
-    disableEveryone: true
 });
 
 global.settings = {
