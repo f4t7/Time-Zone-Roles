@@ -1,5 +1,6 @@
 module.exports = {
 	"names": [
+		'PKT',
 		'LINT',
 		'CHADT',
 		'NZDT',
@@ -40,6 +41,7 @@ module.exports = {
 		'AoE'
 	],
 	"offsets": [
+		'+05:00',
 		'+14:00',
 		'+13:45',
 		'+13:00',

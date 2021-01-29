@@ -1,11 +1,3 @@
-try {
-	var auth = require('./auth.json');
-} catch (error) {
-	var auth = {
-		'token': process.env.BOT_TOKEN,
-		'owner': '376358607836545032'
-	};
-}
 var timezones = require('./timezones.js');
 var Discord = require('discord.js');
 var Commando = require('discord.js-commando');
@@ -104,5 +96,5 @@ client.on('ready', () => {
 	updateAllTimes();
 });
 
-client.login(auth.token);
+client.login(process.env.token);
 setInterval(updateAllTimes, 60*1000);
