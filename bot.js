@@ -94,5 +94,6 @@ client.on('ready', () => {
 	updateAllTimes();
 });
 
+//client.login('ODA0NjgxMTUwODI3MDY5NDQx.YBP3uA.t0sb-Fd-bQ5Yexbrqw9Ob3BOJc0');
 client.login(process.env.token);
 setInterval(updateAllTimes, 60*1000);
